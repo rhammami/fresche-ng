@@ -1,29 +1,25 @@
-<header id="layout-header">
-      <nav class="navbar navbar-expand-md fixed-top">
-        <div class="col-md-10">
-          <ul class="navbar nav mr-auto">
-            <div class="logo" >
-              <a [routerLink]="['']">
-                <img id="logo" alt="ngx-bootstrap" src="assets/images/AWH Logo_RGB_No_Tag _White.png">
-              </a>
-            </div>
-          </ul>          
+<header>
+  <div class="ui-g">
+    <div class="ui-g-10">
+      <div class="logo" >
+        <a [routerLink]="['']">
+          <img id="logo" src="assets/images/AWH Logo_RGB_No_Tag _White.png">
+        </a>
+      </div>
+    </div>
+    <div class="ui-g-2">
+      <div id="header-info" class="ui-g">
+        <div class="ui-g-6">
+          <a href="">
+            <fa name="cog" size="2x"></fa>
+          </a>
         </div>
-        <div class="col-md-2">
-          <div id="header-info">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link nav-icon" href="">
-                  <fa name="cog" size="2x"></fa>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-icon" href="">
-                  <fa name="user" size="2x"></fa>
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div class="ui-g-6">
+          <a href="">
+            <fa name="user" size="2x"></fa>
+          </a>
         </div>
-      </nav>
+      </div>
+    </div>
+  </div>
 </header>

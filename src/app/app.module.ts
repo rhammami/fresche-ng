@@ -9,12 +9,14 @@ import { FooterComponent } from './shared/layout/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { ButtonModule, ToolbarModule } from 'primeng/primeng';
+import { CustomersComponent } from './customers/customers.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CustomersComponent,
   ],
   imports: [
     BrowserModule,
