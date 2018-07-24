@@ -29,3 +29,25 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Added Modules
 
 First commit -- > primeng and primengicons
+
+## Add bootstrap 4 module
+npm install --save bootstrap
+    @import "~bootstrap/dist/css/bootstrap.css" in style.scss
+
+Adding Bootstrap 4 Using ng-bootstrap and ngx-bootstrap
+    npm install --save @ng-bootstrap/ng-bootstrap
+import the main module -- > import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+Add the module imported in the app root module --> 
+    import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+Add it in the styles array of the angular.json
+    "styles": [
+        "styles.css",
+        "node_modules/bootstrap/dist/css/bootstrap.css"
+    ],
+
+## Add fontawesome module 
+npm install --save font-awesome angular-font-awesome
+Import the module
+    import { AngularFontAwesomeModule } from 'angular-font-awesome';
+Add the font-awesome CSS to styles inside the angular.json
+    "node_modules/font-awesome/css/font-awesome.css"

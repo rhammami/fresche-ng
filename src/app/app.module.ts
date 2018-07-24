@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/layout/header/header.component';
 import { FooterComponent } from './shared/layout/footer/footer.component';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { ButtonModule, ToolbarModule } from 'primeng/primeng';
 
 @NgModule({
@@ -17,6 +19,8 @@ import { ButtonModule, ToolbarModule } from 'primeng/primeng';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgbModule,
+    AngularFontAwesomeModule,
     ButtonModule,
     ToolbarModule
   ],
